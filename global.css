@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  
+  --font-ibm-plex-sans: "IBM Plex Sans";
+  --font-roboto: Roboto;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-lg: 18px;
+  --font-size-smi: 13px;
+  --font-size-mini: 15px;
+  --font-size-3xl: 22px;
+  --font-size-xs: 12px;
+  --font-size-lgi: 19px;
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --font-size-lg: 18px;
+  --font-size-lgi: 19px;
+  --font-size-3xl: 22px;
+  --font-size-mini: 15px;
+  --font-size-smi: 13px;
+  --font-size-5xl: 24px;
+  --font-size-base: 16px;
+  --font-size-mid: 17px;
+  --font-size-2xs: 11px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gainsboro-100: #e0e0e0;
+  --color-dimgray-100: #5c5c5c;
+  --color-dimgray-200: #525252;
+  --color-black: #000;
+  --color-darkgray: #a9aeb8;
+  --color-darkgray-100: #989899;
+  --color-tomato: #e56135;
+  --color-mediumseagreen: #02b875;
+  --color-royalblue: #2f6ce5;
+  --color-whitesmoke-100: #f2f2f2;
+  --color-whitesmoke-200: #edeef0;
+  --color-gray-100: #8a8a8a;
+  --color-gray-200: rgba(0, 0, 0, 0.5);
+  --color-silver: #b8b8b8;
+
+  
+  --color-royalblue: #2f6ce5;
+  --color-whitesmoke-300: #f8f9fa;
+  --color-whitesmoke-400: #f7f8fa;
+  --color-whitesmoke-500: #f1f3f5;
+  --color-whitesmoke-100: #f2f2f2;
+  --color-whitesmoke-200: #edeef0;
+  --color-black: #000;
+  --color-gainsboro-400: #e6e6e6;
+  --color-gainsboro-100: #e0e0e0;
+  --color-gainsboro-500: #d6e6db;
+  --color-gainsboro-200: #d8dadb;
+  --color-gainsboro-300: #d9d9db;
+  --color-dimgray-300: #6a6a6b;
+  --color-dimgray-100: #5c5c5c;
+  --color-dimgray-200: #525252;
+  --color-gray-100: #8a8a8a;
+  --color-gray-300: #88898a;
+  --color-gray-400: #808080;
+  --color-gray-500: #212529;
+  --color-gray-200: rgba(0, 0, 0, 0.6);
+  --color-gray-600: rgba(0, 0, 0, 0.5);
+  --color-gray-700: rgba(0, 0, 0, 0.7);
+  --color-silver-200: #bfbfc2;
+  --color-silver: #b8b8b8;
+  --color-silver-100: #b6b6b8;
+  --color-dodgerblue: #4785ff;
+  --color-darkslategray-100: #495057;
+  --color-darkslategray-200: #3d3d3d;
+  --color-darkslategray-300: #343a40;
+  --color-darkslategray-400: #2e2e2e;
+  --color-honeydew: #effff4;
+  --color-seagreen: #008a45;
+  --color-mediumseagreen: #02b875;
+  --color-darkgray: #a9aeb8;
+  --color-darkgray-100: #989899;
+  --color-tomato: #e56135;
+  --color-salmon: #ff6b6b;
+
+  /* Gaps */
+  --gap-41xl: 60px;
+  --gap-xl: 20px;
+  --gap-5xs: 8px;
+  --gap-3xs: 10px;
+  --gap-base: 16px;
+  --gap-2xs: 11px;
+  --gap-5xl: 24px;
+  --gap-xs: 12px;
+  --gap-21xl: 40px;
+  --gap-9xs: 4px;
+  --gap-7xl: 26px;
+  --gap-xs-5: 11.5px;
+  --gap-7xs: 6px;
+  --gap-sm: 14px;
+  --gap-lgi-5: 19.5px;
+  --gap-6xs: 7px;
+
+  --gap-6xs: 7px;
+  --gap-xs: 12px;
+  --gap-xl: 20px;
+  --gap-29xl: 48px;
+  --gap-5xs: 8px;
+  --gap-3xl: 22px;
+  --gap-8xl: 27px;
+  --gap-3xs: 10px;
+  --gap-xs-5: 11.5px;
+  --gap-5xl: 24px;
+  --gap-lgi: 19px;
+  --gap-base: 16px;
+  --gap-9xs: 4px;
+  --gap-7xs: 6px;
+  --gap-lgi-5: 19.5px;
+  --gap-sm: 14px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-xs: 12px;
+  --padding-3xs: 10px;
+  --padding-12xs: 1px;
+  --padding-lgi: 19px;
+  --padding-7xs: 6px;
+  --padding-4xs: 9px;
+  --padding-9xs: 4px;
+  --padding-10xs: 3px;
+  --padding-lg: 18px;
+  --padding-6xs: 7px;
+  --padding-base: 16px;
+  --padding-53xl: 72px;
+  --padding-sm: 14px;
+  --padding-17xl: 36px;
+  --padding-11xs: 2px;
+  --padding-5xs: 8px;
+  --padding-13xl: 32px;
+  --padding-8xl: 27px;
+  --padding-8xs: 5px;
+
+  --gap-6xs: 7px;
+  --gap-xs: 12px;
+  --gap-xl: 20px;
+  --gap-29xl: 48px;
+  --gap-5xs: 8px;
+  --gap-3xl: 22px;
+  --gap-8xl: 27px;
+  --gap-3xs: 10px;
+  --gap-xs-5: 11.5px;
+  --gap-5xl: 24px;
+  --gap-lgi: 19px;
+  --gap-base: 16px;
+  --gap-9xs: 4px;
+  --gap-7xs: 6px;
+  --gap-lgi-5: 19.5px;
+  --gap-sm: 14px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-5xl: 24px;
+  --br-5xs: 8px;
+  --br-3xs: 10px;
+  --br-sm: 14px;
+  --br-2xl: 21px;
+
+  --br-sm: 14px;
+  --br-2xl: 21px;
+  --br-9xs: 4px;
+  --br-5xl: 24px;
+  --br-5xs: 8px;
+  --br-11xs: 2px;
+  --br-xl: 20px;
+  --br-3xs: 10px;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
